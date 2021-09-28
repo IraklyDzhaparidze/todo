@@ -89,7 +89,8 @@ function App() {
         })
     }
   }
-
+  {console.log('huy v jopu')}
+// huy
   const onCompleteTask = (listId, taskId, completed) => {
     const newList = lists.map(list => {
       if (list.id === listId) {
